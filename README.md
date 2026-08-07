@@ -16,10 +16,17 @@ This project contains the workflow, results, and reports from NGS analysis of BY
 - De novo assembly validated with QUAST and BLAST
 
 ## Folder Structure
-- `results/`: Contains reports and summary files
-- `plots/`: Visuals like FastQC plots or IGV screenshots
-- `scripts/`: Command lines or workflow steps
-- `references/`: Reference genome links or notes
+```
+NGS_Data_Analysis/
+  results/            analysis report and MultiQC summaries
+    NGS Data Analysis of BYMV_report.pdf   full write-up of the analysis
+    MultiQC_BYMV.html.zip                  MultiQC report, BYMV sample
+    MultiQC_RF.html.zip                    MultiQC report, RF sample
+  Galaxy histories/   exported Galaxy workflow histories (see the note inside)
+```
+
+Unzip either MultiQC archive and open the enclosed `.html` file in a browser
+to view the interactive quality-control report.
 
 ## Acknowledgment
 Analysis was performed using the [Galaxy.eu](https://usegalaxy.eu) platform.
